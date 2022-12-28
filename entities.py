@@ -1,6 +1,5 @@
 import pygame
 import pygame.mixer as mixer
-import random
 from sprites import JoeSprite, BGSprite, ControlsSprite, ScoreBoard, ScoreBoardSprite, MainMenuSprite, JoeLives, JoeLivesSprite
 from observer import Observer, ENEMY_KILLED, LIVES_LOST
 from enemyProto import *

@@ -1,12 +1,7 @@
-from commands import *
+
 import pygame
 from pygame import *
-from common import *
-from sprites import *
-from bulletProto import *
-from enemyProto import *
 from entities import *
-import random
 
 
 pygame.init()
@@ -16,8 +11,10 @@ pygame.init()
 
 running = True
 
+# game loop
 while running:
 
+    # event loop
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -44,6 +41,7 @@ while running:
             # timer for animating Joe
             Joe.switch_index()
 
+    # secondary game loop
     if game_active:
 
         # draw and update sprites

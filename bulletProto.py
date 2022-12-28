@@ -1,7 +1,6 @@
 import pygame
 import pygame.sprite
 from sprites import BulletSprite
-from commands import InputHandler
 from common import bullet_movement, grid_size
 
 
