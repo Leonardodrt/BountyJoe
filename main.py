@@ -7,8 +7,6 @@ from entities import *
 pygame.init()
 
 
-# DEPOIS COLOCAR AUDIO
-
 running = True
 
 # game loop
